@@ -1,15 +1,9 @@
-
-
 <footer class="gn-footer">
+
     <ul>
         <li>
-            <a href="https://geonode.org/" class="nav-link">
-                <span>geonode.org</span>
-            </a>
-        </li>
-        <li>
-            <a href="/developer/" class="nav-link">
-                <span>Developers</span>
+            <a href="https://padang.go.id/" class="nav-link">
+					<span>&copy; <span id="cyear"></span> DPRKPP Kota Padang</span>
             </a>
         </li>
         <li>
@@ -17,5 +11,14 @@
                 <span>About</span>
             </a>
         </li>
+        <li>
+            <a href="https://geonode.org/" class="nav-link">
+                <span>Power By Geonode</span>
+            </a>
+        </li>
     </ul>
 </footer>
+
+<script>
+document.getElementById("cyear").innerHTML = new Date().getFullYear();
+</script>
