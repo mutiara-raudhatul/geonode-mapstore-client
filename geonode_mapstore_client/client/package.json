@@ -37,6 +37,7 @@
     "font-awesome": "4.7.0",
     "mapstore": "file:MapStore2",
     "react-helmet": "6.1.0",
+    "react-image-video-lightbox": "git+https://github.com/deedee/react-image-video-lightbox.git#master",
     "react-intl": "2.3.0",
     "three": "0.136.0"
   },
