@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
         <link href="{% static 'mapstore/dist/themes/geonode.css' %}?{% client_version %}" rel="stylesheet" />
-        <title>{{ SITE_NAME }}</title>
+        <title>Geopertal Dinas Perumahan Rakyat Kawasan Pemukaiman Kota Padang</title>
         <link rel="shortcut icon" href="{% static 'geonode/img/favicon.ico' %}" />
         {% include './geonode-mapstore-client/snippets/loader_style.html' %}
 
@@ -18,6 +18,10 @@
 
         {% block extra_style %}
         {% endblock %}
+<meta name="description" content="geoportal, peta, pemukiman, perumahan jalan, drainase, Padang, Sumatera Barat, GIS" />
+<meta property="og:site_name" content="Geopertal Dinas Perumahan Rakyat Kawasan Pemukaiman Kota Padang" />
+<meta property="og:title" content="Geoportal Dinas Perumahan Raksyat Kawasan Pemukiman Kota Padang" />
+<meta name="google-site-verification" content="PNb-tpECo9fbUHLNXxkEZkXJl_mxA7FSlA7o67taeMQ" />
     </head>
     <body class="msgapi ms2" data-ms2-container="ms2" >
         <div class="gn-page-wrapper {% if request.user_agent.is_mobile %}gn-mobile{% else %}gn-desktop{% endif %}">
