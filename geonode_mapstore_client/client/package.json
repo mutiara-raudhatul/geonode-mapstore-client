@@ -26,11 +26,13 @@
   "author": "GeoSolutions",
   "license": "BSD-2-Clause",
   "devDependencies": {
-    "@mapstore/project": "1.0.24",
+    "@mapstore/project": "1.0.25",
     "dotenv": "10.0.0",
     "jsdoc-to-markdown": "7.1.0"
   },
   "dependencies": {
+    "@geosolutions/html-to-draftjs": "git+https://github.com/geosolutions-it/html-to-draftjs.git#v1.5.1",
+    "@geosolutions/react-draft-wysiwyg": "git+https://github.com/geosolutions-it/react-draft-wysiwyg.git#v1.14.8",
     "@react-three/drei": "8.6.1",
     "@react-three/fiber": "7.0.25",
     "dompurify": "2.2.6",
