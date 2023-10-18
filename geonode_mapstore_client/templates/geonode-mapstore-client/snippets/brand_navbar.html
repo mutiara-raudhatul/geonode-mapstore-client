@@ -47,16 +47,16 @@
                 {% block left_menu %}
                 <ul class="gn-menu-list">
                     <li>
-                        <a href="{% block logo_href %}{% catalogue_home %}{% endblock %}">
+                        <a href="{% block logo_href %}/{% endblock %}">
                             {% if custom_theme.logo and custom_theme.logo.url %}
-                                <img src="{{ custom_theme.logo.url }}">
+			         <img src="{{ custom_theme.logo.url }}">
                             {% else %}
                                 <img src="{% block logo_src %}/static/mapstore/img/geonode-logo.svg{% endblock %}">
                             {% endif %}
                         </a>
                     </li>
                     <li>
-                        <a href="{% catalogue_home %}"><div id="site-title"><div id="site-title-1">Geoportal</div><div id="site-title-2">SIRUMAH KITA - DPRKP Kota Padang </div></div></a>
+                        <a href="/"><div id="site-title"><div id="site-title-1">Geoportal</div><div id="site-title-2">SIRUMAH KITA - DPRKP Kota Padang </div></div></a>
                     </li>
                 </ul>
                 {% endblock %}
